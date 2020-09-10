@@ -235,7 +235,6 @@ export class JobsScreen extends React.Component<JobsScreenProps, JobsScreenState
                 })
               }
             />
-          </View>
           <View style={{ alignItems: 'center', marginVertical: 20 }}>
             <Button
               title="Filter Search"
@@ -245,6 +244,7 @@ export class JobsScreen extends React.Component<JobsScreenProps, JobsScreenState
                 this.setState({overlayVisible: false});
               }}
             />
+          </View>
           </View>
           </Overlay>
         </View>
