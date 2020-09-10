@@ -10,6 +10,7 @@ interface BaseScreenProps {
   refreshing?: boolean;
   headerRightButton?: React.ReactElement;
   static?: string; // 'collapsed' or 'expanded'
+  overlayButton?: React.ReactElement;
 }
 
 interface BaseScreenState {
