@@ -48,9 +48,9 @@ export default class LoginScreen extends React.Component<LoginScreenProps, Login
     return (
       <KeyboardAvoidingView style={{ flex: 1 }} behavior="padding">
         <ScrollView style={{ flex: 1 }}>
-          <ImageContainer>
-            <LoginImg source={require('@assets/imgs/colored_icon.png')} resizeMode="center" />
-          </ImageContainer>
+        <ImageContainer>
+          <LoginImg source={require('@assets/imgs/colored_icon.png')} resizeMode="center" />
+        </ImageContainer>
           <LoginHeader>Welcome</LoginHeader>
           <LoginText>Username</LoginText>
           <LoginInput
